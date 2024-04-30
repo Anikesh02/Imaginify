@@ -1,3 +1,5 @@
+"use client"
+
 import { dataUrl, debounce, getImageSize } from '@/lib/utils'
 import { CldImage } from 'next-cloudinary'
 import { PlaceholderValue } from 'next/dist/shared/lib/get-img-props'
@@ -46,7 +48,7 @@ const TransformedImage = ({image, type, title, transformationConfig, isTransform
                         onError={()=>{
                             debounce(() => {
                                 setIsTransforming && setIsTransforming(false)
-                            }, 8000)
+                            }, 8000)()
                         }}
 
                         {...transformationConfig}
