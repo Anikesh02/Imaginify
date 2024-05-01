@@ -113,7 +113,7 @@ const TransformationForm = ({ action, data = null, userId, type, creditBalance, 
 
       if(action === 'Update') {
         try {
-          const updatedImage = updateImage({
+          const updatedImage = await updateImage({
             image: {
               ...imageData,
               _id: data._id
