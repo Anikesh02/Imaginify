@@ -1,15 +1,10 @@
-
-import {
-  clerkMiddleware,
-  createRouteMatcher
-} from '@clerk/nextjs/server';
-
-const isProtectedRoute = createRouteMatcher(['/', '/api/webhooks/clerk', '/api/webhooks/stripe']);
-
-export default clerkMiddleware((auth, req) => {
-  if (isProtectedRoute(req)) auth().protect();
-});
-
+import { clerkMiddleware } from '@clerk/nextjs/server';
+ 
+export default clerkMiddleware();
+ 
 export const config = {
-  matcher: ['/((?!.*\\..*|_next).*)', '/', '/(api|trpc)(.*)'],
+  matcher: [
+    '/((?!.*\\..*|_next).*)', // Don't run middleware on static files
+    '/', // Run middleware on index page
+    '/(api|trpc)(.*)'], // Run middleware on API routes
 };
