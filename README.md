@@ -41,6 +41,8 @@ Screenshots :
 ![image](https://github.com/Anikesh02/Imaginify/assets/140998878/2165eb13-ccd5-4d1e-afc3-5c7b3811d7bb)
 ![image](https://github.com/Anikesh02/Imaginify/assets/140998878/e023fea5-d641-44b4-aaf2-11f82d48459f)
 ![image](https://github.com/Anikesh02/Imaginify/assets/140998878/dbcd2e08-c3fa-4fa5-8f7a-2e3786e77ad4)
+![image](https://github.com/Anikesh02/Imaginify/assets/140998878/6f2fa679-0b96-4bf4-8f72-117ddddfe45c)
+
 
 
 👨‍💻 Fully Responsive
