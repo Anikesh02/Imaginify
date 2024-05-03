@@ -1,5 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+Imaginify is  a REAL Software-as-a-Service app with AI features and payments & credits system that you might even turn into a side income or business idea using Next.js 14, Clerk, MongoDB, Cloudinary AI, and Stripe.
+
+![image](https://github.com/Anikesh02/Imaginify/assets/140998878/3db53206-6375-4c74-876a-d3fa22a98422)
+![image](https://github.com/Anikesh02/Imaginify/assets/140998878/badd514e-c6b7-4c66-8168-5f5ffa8b599e)
+![image](https://github.com/Anikesh02/Imaginify/assets/140998878/2165eb13-ccd5-4d1e-afc3-5c7b3811d7bb)
+
+Fully Responsive
+![image](https://github.com/Anikesh02/Imaginify/assets/140998878/343d6d1d-c204-47a4-8876-fbb35a77e64d)
+
+
+
+
+
 ## Getting Started
 
 First, run the development server:
