@@ -2,6 +2,8 @@ Imaginify is a REAL Software-as-a-Service app with AI features and a payments & 
 
 Find the live link here: https://imaginify-ani02.vercel.app/
 
+📢 NOTE: After Signup or Login make sure to refresh the page once if everything doesn't work right
+
 🔋 Features :
 
 👉 Authentication and Authorization: Secure user access with registration, login, and route protection.
