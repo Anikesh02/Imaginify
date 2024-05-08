@@ -3,6 +3,7 @@ import { IBM_Plex_Sans } from "next/font/google";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
+import { Analytics } from "@vercel/analytics/react"
 
 const IBMPlex = IBM_Plex_Sans({
   subsets: ["latin"],
@@ -21,6 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+    <>
+    <Analytics />
     <ClerkProvider appearance={{
       variables: { colorPrimary: '#624cf5'}
     }}>
@@ -30,5 +33,6 @@ export default function RootLayout({
         </body>
       </html>
     </ClerkProvider>
+    </>
   );
 }
