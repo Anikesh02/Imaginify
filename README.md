@@ -34,6 +34,10 @@ Find the live link here: https://imaginify-ani02.vercel.app/
 
 👉 Credits Purchase: Securely buy credits via Stripe for uninterrupted use
 
+  You may use these credentials for buying credits:
+
+  ![image](https://github.com/Anikesh02/Imaginify/assets/140998878/4c35d2d9-d802-4c69-9879-3947147c635b)
+
 👉 Responsive UI/UX: A seamless experience across devices with a user-friendly interface
 
 Screenshots : 
